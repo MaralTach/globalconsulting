@@ -16,10 +16,10 @@ const Header = () => {
               <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to='/courses'>All Courses</Link>
+              <Link to='/courses'>All Our Services</Link>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <Link to='/about'>About Us</Link>
             </li>
             <li>
               <Link to='/team'>Team</Link>
@@ -30,14 +30,14 @@ const Header = () => {
             <li>
               <Link to='/journal'>Journal</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to='/contact'>Contact</Link>
-            </li>
+            </li> */}
           </ul>
           <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
+            <div className='button'> CONNECT WITH US </div>
           </div>
-          <button className='toggle' onClick={() => setClick(!click)}>
+          <button  className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
           </button>
         </nav>

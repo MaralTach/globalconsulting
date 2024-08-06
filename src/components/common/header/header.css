@@ -1,7 +1,7 @@
 /*--------head------------*/
 .head {
   padding: 20px 0;
-  color: #fff;
+  color: #1eb2a6;
 }
 .logo h1 {
   font-size: 35px;
@@ -26,7 +26,7 @@ header ul {
   padding: 30px 20px;
 }
 header ul li a {
-  color: #fff;
+  color: #1c1c1e;
   font-weight: 500;
   transition: 0.5s;
 }
@@ -34,6 +34,7 @@ header ul li a:hover {
   color: #1eb2a6;
 }
 .start {
+  cursor: pointer;
   background-color: #1eb2a6;
   padding: 30px 70px;
   color: #fff;
@@ -49,7 +50,7 @@ header ul li a:hover {
   }
   header {
     margin: 0;
-    background-color: #1eb2a6;
+    background-color: #59639b;
     position: relative;
   }
   header ul.flexSB {
@@ -72,6 +73,6 @@ header ul li a:hover {
     top: 7vh;
     left: 0;
     width: 100%;
-    background-color: #1eb2a6;
+    background-color: #59639b;
   }
 }

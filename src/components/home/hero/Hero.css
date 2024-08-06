@@ -1,7 +1,10 @@
 .hero {
-  background-image: url("../../../../public/images/bg.webp");
-  background-size: cover;
+  background-image: url("../../../../public/images/bgwebp-removebg-preview.png");
+  background-size: contain;
+  background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #d2dddb;
   position: absolute;
   top: 0;
   left: 0;
@@ -10,10 +13,10 @@
   height: 100vh;
   padding-top: 20%;
   padding-right: 50px;
-  color: #fff;
+  color: #242323;
 }
 .hero #heading h3 {
-  color: #fff;
+  color: #1eb2a6;
 }
 .hero #heading {
   text-align: left;
@@ -26,6 +29,8 @@
   }
   .hero {
     background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-top: 50%;
     height: 80vh;
   }

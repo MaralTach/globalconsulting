@@ -15,7 +15,7 @@ const Hero = () => {
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>
-                VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
+                VIEW DETAILS <i className='fa fa-long-arrow-alt-right'></i>
               </button>
             </div>
           </div>
